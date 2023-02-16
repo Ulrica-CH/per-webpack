@@ -1,5 +1,5 @@
 module.exports = {
-  mode: "development",
+  mode: 'development',
   devServer: {
     /**
      * 如果引入了自己编写的文件 需要设置
@@ -8,9 +8,9 @@ module.exports = {
      * 如果这里不加content，是引入不到的
      * public是默认的
      */
-    static: ["punlic", "content"],
+    static: ['punlic', 'content'],
     compress: true,
     open: true,
-    historyApiFallback: true,
-  },
-};
+    historyApiFallback: true
+  }
+}
